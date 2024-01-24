@@ -22,10 +22,7 @@ const Menuitems = [
 		icon: IconLayoutDashboard,
 		href: '/',
 	},
-	{
-		navlabel: true,
-		subheader: 'Utilities',
-	},
+
 	{
 		id: uniqueId(),
 		title: 'Typography',
@@ -38,10 +35,7 @@ const Menuitems = [
 		icon: IconCopy,
 		href: '/utilities/shadow',
 	},
-	{
-		navlabel: true,
-		subheader: 'Extra',
-	},
+
 	{
 		id: uniqueId(),
 		title: 'Icons',
