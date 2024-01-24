@@ -21,6 +21,10 @@ const Profile = () => {
 	const handleClose2 = () => {
 		setAnchorEl2(null);
 	};
+	const handleClickLogout = () => {
+		localStorage.removeItem('credentials');
+		window.location.href = '/authentication/login';
+	};
 
 	return (
 		<Box>
@@ -81,7 +85,7 @@ const Profile = () => {
 						href="/authentication/login"
 						variant="outlined"
 						color="primary"
-						component={Link}
+						onClick={handleClickLogout}
 						fullWidth
 					>
 						Logout
