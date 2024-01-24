@@ -59,7 +59,7 @@ const Header = ({ toggleMobileSidebar }: ItemType) => {
 					color="textSecondary"
 					sx={{ display: { xs: 'none', lg: 'inline' } }}
 				>
-					Welcome to Paragon Dashboard
+					Welcome to Point of Sale Dashboard
 				</Typography>
 				<Box flexGrow={1} />
 
