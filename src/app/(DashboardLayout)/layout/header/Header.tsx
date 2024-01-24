@@ -8,6 +8,7 @@ import {
 	IconButton,
 	Badge,
 	Button,
+	Typography,
 } from '@mui/material';
 import PropTypes from 'prop-types';
 
@@ -53,8 +54,15 @@ const Header = ({ toggleMobileSidebar }: ItemType) => {
 				>
 					<IconMenu width="20" height="20" />
 				</IconButton>
-
+				<Typography
+					variant="h6"
+					color="textSecondary"
+					sx={{ display: { xs: 'none', lg: 'inline' } }}
+				>
+					Welcome to Paragon Dashboard
+				</Typography>
 				<Box flexGrow={1} />
+
 				<Stack spacing={1} direction="row" alignItems="center">
 					<Profile />
 				</Stack>
