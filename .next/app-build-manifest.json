@@ -25,6 +25,36 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(DashboardLayout)/loading.js"
+    ],
+    "/(DashboardLayout)/utilities/typography/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(DashboardLayout)/utilities/typography/page.js"
+    ],
+    "/(DashboardLayout)/utilities/shadow/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(DashboardLayout)/utilities/shadow/page.js"
+    ],
+    "/(DashboardLayout)/icons/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(DashboardLayout)/icons/page.js"
+    ],
+    "/(DashboardLayout)/sample-page/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(DashboardLayout)/sample-page/page.js"
+    ],
+    "/authentication/register/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/authentication/register/page.js"
+    ],
+    "/authentication/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/authentication/login/page.js"
     ]
   }
 }
