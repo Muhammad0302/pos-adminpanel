@@ -22,6 +22,13 @@ const Menuitems = [
 		icon: IconUserPlus,
 		href: '/paragon',
 	},
+
+	{
+		id: uniqueId(),
+		title: 'Kbd',
+		icon: IconUserPlus,
+		href: '/kbd',
+	},
 ];
 
 export default Menuitems;

@@ -8,7 +8,7 @@ import MenuItem from '@mui/material/MenuItem';
 import ModeEditOutlineOutlinedIcon from '@mui/icons-material/ModeEditOutlineOutlined';
 import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
 import { useRouter } from 'next/navigation';
-const ParagonUserList = () => {
+const KbdUserList = () => {
 	const [anchorEl, setAnchorEl] = useState(null);
 	const router = useRouter();
 	const open = Boolean(anchorEl);
@@ -361,7 +361,7 @@ const ParagonUserList = () => {
 		<>
 			<Box sx={{ padding: '24px' }}>
 				<MUIDataTable
-					title={'Paragon Users'}
+					title={'Kbd Users'}
 					data={data}
 					columns={columns}
 					options={options}
@@ -371,4 +371,4 @@ const ParagonUserList = () => {
 	);
 };
 
-export default ParagonUserList;
+export default KbdUserList;
