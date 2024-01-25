@@ -1,12 +1,11 @@
 import {
-	IconAperture,
-	IconCopy,
 	IconLayoutDashboard,
 	IconLogin,
 	IconMoodHappy,
 	IconTypography,
 	IconUserPlus,
 } from '@tabler/icons-react';
+import ParaglidingIcon from '@mui/icons-material/Paragliding';
 
 import { uniqueId } from 'lodash';
 
@@ -20,7 +19,7 @@ const Menuitems = [
 	{
 		id: uniqueId(),
 		title: 'Paragon',
-		icon: IconAperture,
+		icon: IconUserPlus,
 		href: '/paragon',
 	},
 ];
