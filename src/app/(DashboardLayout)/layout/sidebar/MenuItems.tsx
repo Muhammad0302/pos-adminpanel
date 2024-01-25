@@ -19,9 +19,9 @@ const Menuitems = [
 	},
 	{
 		id: uniqueId(),
-		title: 'Sample Page',
+		title: 'Paragon',
 		icon: IconAperture,
-		href: '/sample-page',
+		href: '/paragon',
 	},
 ];
 
