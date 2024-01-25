@@ -1,11 +1,11 @@
 'use client';
 import { Grid, Box } from '@mui/material';
 import React, { useEffect, useState } from 'react';
-import PageContainer from '@/app/(DashboardLayout)/components/container/PageContainer';
+import PageContainer from '../../../components/container/PageContainer';
 // components
-import SalesOverview from '@/app/(DashboardLayout)/components/dashboard/SalesOverview';
-import YearlyBreakup from '@/app/(DashboardLayout)/components/dashboard/YearlyBreakup';
-import MonthlyEarnings from '@/app/(DashboardLayout)/components/dashboard/MonthlyEarnings';
+import SalesOverview from '../../../components/dashboard/SalesOverview';
+import YearlyBreakup from '../../../components/dashboard/YearlyBreakup';
+import MonthlyEarnings from '../../../components/dashboard/MonthlyEarnings';
 import AuthLogin from '../authentication/auth/AuthLogin';
 const Dashboard = () => {
 	const [hasCredentials, setHasCredentials] = useState(false);
