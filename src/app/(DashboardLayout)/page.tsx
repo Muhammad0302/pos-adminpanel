@@ -20,7 +20,7 @@ const Dashboard = () => {
 	}, []);
 	return (
 		<>
-			<PageContainer title="Dashboard" description="This is Dashboard">
+			<PageContainer title="Point of Sale" description="This is Dashboard">
 				<Box>
 					<Grid container spacing={3}>
 						<Grid item xs={12} lg={12}>

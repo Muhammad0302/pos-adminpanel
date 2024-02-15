@@ -6,7 +6,10 @@ import ParagonUserList from '@/app/components/paragon-user-list/ParagonUserList'
 
 const Paragon = () => {
 	return (
-		<PageContainer title="Sample Page" description="this is Sample page">
+		<PageContainer
+			title="Point of Sale"
+			description="This is a point of sale system"
+		>
 			{/* <DashboardCard title="Sample Page"> */}
 			{/* <Typography>This is a sample page</Typography> */}
 			<ParagonUserList />
